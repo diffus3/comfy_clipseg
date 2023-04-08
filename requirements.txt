@@ -1,0 +1,4 @@
+opencv-python
+cchardet
+chardet
+numpy
