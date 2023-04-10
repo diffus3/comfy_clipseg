@@ -133,7 +133,7 @@ class ClipSeg:
         #image_out = torch.cat([mask.movedim(0,-1)]*3)[None,]
         #mask = torch.from_numpy(mask)[None,]
 
-        return (image_out, mask,)
+        return (image_out, mask[0],)
 
 
 NODE_CLASS_MAPPINGS = {
